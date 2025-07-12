@@ -1,0 +1,59 @@
+body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: #f4f6fb; /* Soft, neutral background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-app-container {
+  background: rgba(255,255,255,0.85);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(253, 160, 133, 0.18);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.color-display {
+  width: 100%;
+  max-width: 520px;      /* Increased max width for a wider box */
+  height: 140px;         /* Keep it tall for a modern look */
+  border-radius: 16px;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 2px 12px rgba(253, 160, 133, 0.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 2px;
+  border: 2px solid #f6d365;
+  transition: background 0.4s;
+  background: #fff;
+}
+
+.color-btn {
+  background: linear-gradient(90deg, #fda085, #f6d365);
+  color: #fff;
+  border: none;
+  padding: 1rem 2.2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(253, 160, 133, 0.10);
+  margin-top: 1rem;
+}
+
+.color-btn:hover {
+  background: linear-gradient(90deg, #f6d365, #fda085);
+  transform: translateY(-2px) scale(1.04);
+}

@@ -1,0 +1,55 @@
+body, #root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-app-container {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 8px 32px 0 rgba(90, 103, 216, 0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 600px;   /* Increased from 400px to 600px */
+  width: 100%;
+  text-align: center;
+}
+
+.counter-title {
+  color: #5a67d8;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.counter-value {
+  font-size: 3.2rem;
+  color: #22223b;
+  margin: 1.5rem 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.counter-btn {
+  background: #5a67d8;
+  color: #fff;
+  border: none;
+  padding: 1rem 2.2rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(90, 103, 216, 0.10);
+  margin: 0 0.5rem;
+}
+
+.counter-btn:hover {
+  background: #434190;
+  transform: translateY(-2px) scale(1.04);
+}
